@@ -41,7 +41,13 @@ article {
 
 .testimonial {
     background-color: cadetblue;
-    padding: 1rem;
+    padding:8px;
+    margin: 12px;
+    
+}
+
+.Cname {
+    padding: 8px;
 }
 
 footer {
