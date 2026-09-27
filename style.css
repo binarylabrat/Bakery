@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    background-color: bisque;
+    padding: 1rem;
+}
+
+article {
+    margin: 1rem;
+}
+
+.testimonial {
+    background-color: cadetblue;
+    padding: 1rem;
+}
+
+footer {
+    color: white;
+    background: blueviolet;
+    padding: 1rem;
+}
+
+
